@@ -96,10 +96,33 @@ classDiagram
 
 ---
 
-**Observações:**
+**Exemplo 1 de json:**
+```json
+{
+  "type": "Cirrus",
+  "acronym": "Ci",
+  "Altitude": {
+    "Maximun": 13000,
+    "minimum": 6000
+  },
+  "Formation": "Cristais de gelo",
+  "Associated climate": "Tempo claro, mas pode indicar mudança para tempo instável",
+  "Appearence": "Fios finos, brancos e delicados, com aparência de penas ou cabelos"
+```
 
-* Este formato .md é adequado para um arquivo README.md no GitHub, pois é simples e legível. 
-* Você pode adicionar imagens de cada tipo de nuvem para ilustrar melhor.
-* As informações fornecidas são básicas e podem ser expandidas com mais detalhes, caso necessário.
+**Exemplo 2 de json:**
 
+```json
+{
+  "type": "Cumulus",
+  "acronym": "Cu",
+  "Altitude": {
+    "Maximun": 6000,
+    "minimum": 2000
+  },
+  "Formation": "Ar úmido ascendente",
+  "Associated climate": "Tempo bom, mas podem indicar tempestades em desenvolvimento",
+  "Appearence": "Nuvens brancas e fofas com base plana e topo arredondado"
+}
+```
 
