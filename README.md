@@ -2,7 +2,7 @@
 Este projeto foi desenvolvido para o bootcamp 2024 de java backend ministrado pela Dio com o apoio do Santader,
 e tem como objetivo a entrega do desafio de projeto de API REST.
 
-##Diagrama de Classes##
+## Diagrama de Classes ##
 
 ```mermaid
 classDiagram
@@ -22,7 +22,13 @@ classDiagram
 
     CloudType *-- Altitude
 ```
+
+## Accesso ao BD ##
+* **USER:** apirest
+* **PASSWORD:** apirest
+
 ## Tipos de Nuvens: Dados Básicos
+
 
 **1. Cirrus (Ci):**
 
